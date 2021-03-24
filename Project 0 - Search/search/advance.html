@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="topbar_advc">
+                <div class="topbar">
+                    <a href="index.html"><img
+                            src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
+                            title="Go to Google Home"></a>
+                    <a href="index.html">Search</a>
+                    <a href="image.html">Images</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div id="adv_main">
+                <div id="adv">
+                    <div id="ad">
+                        Advanced Search
+                    </div>
+                </div>
+                <table width=100% text_align=left>
+                    <tr>
+                        <td width=50%>
+                            <div>Find pages with...</div>
+                        </td>
+                        <td width=50%>
+                            <div>To do this in the search box.</div>
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+                <div>
+                    <form action="https://google.com/search">
+                        <table width=100% text_align=left>
+
+                            <tr width=50%>
+                                <td id="td_label"><label for="atw">all these words:</label></td>
+                                <td><input name="as_q" type="text" id="atw" autocomplete="off"></td>
+                                <td>
+                                    <div >Type the important words: tri-colour rat terrier</div>
+                                </td>
+                            </tr>
+                            <tr width=50%>
+                                <td id="td_label"><label for="tewp">this exact word or phrase:</label></td>
+                                <td> <input name="as_epq" type="text" id="tewp" autocomplete="off"></td>
+                                <td>
+                                    <div >Put exact words in quotes: "rat terrier"
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr width=50%>
+                                <td id="td_label"><label for="aftw">any of these words:</label></td>
+                                <td> <input name="as_oq" type="text" id="aftw" autocomplete="off"></td>
+                                <td>
+                                    <div >Type OR between all the words you want: miniature OR standard
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr width=50%>
+                                <td id="td_label">
+                                    <label for="nftw">none of these words:</label></td>
+                                <td> <input name="as_eq" type="text" id="nftw" autocomplete="off">
+                                </td>
+                                <td>
+                                    <div >Put a minus sign just before words that you don't want: -rodent,
+                                        -"JackRussell"
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr width=50%>
+                                <td id="td_label">
+                                </td>
+                                <td> <input type="submit" id="bluebtn" value="Advanced Search">
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
